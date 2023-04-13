@@ -32,3 +32,25 @@ header {
 
 
 }
+
+@media (max-width: 425px) {
+
+    header {
+        top: auto;
+        bottom: 0;
+        padding: 1rem;
+        background-color: $color-primary;
+        border-top: 3px solid $color-secondary;
+
+        .logo-name {
+            display: none;
+        }
+
+        nav a {
+            font-size: 1rem;
+            margin-left: 1rem;
+        }
+
+    }
+
+}
