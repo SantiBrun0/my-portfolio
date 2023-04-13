@@ -1,0 +1,65 @@
+
+
+.sobre-mi {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .all-container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+
+        .text {
+            font-size: 1.1rem;
+            text-align: center;
+            width: 75%;
+            margin-bottom: 30px;
+        }
+    
+        .skills-container {
+            width: 90%;
+            height: 60%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .card-skill {
+                height: 40%;
+                width: 17%;
+                background-color: $color-tertiary;
+                border: 4px solid $color-secondary;
+                border-radius: 10px;
+                box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+                transition: all ease 0.3s;
+                
+                &:hover {
+                    transform: translateY(-10px);
+                    background-color: $color-primary;
+                    color: $color-secondary;
+                }
+
+                i {
+                    font-size: 4rem;
+                }
+
+            }
+
+        }
+
+    }
+
+
+}
