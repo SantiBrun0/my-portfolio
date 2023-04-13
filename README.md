@@ -1,4 +1,4 @@
-# Santiago Bruno portfollio
+# Santiago Bruno portfolio
 
 Hello! 👋 I'm Santiago Bruno, full stack developer💻
 Passionate about technology and very motivated to continue venturing into this world🚀
