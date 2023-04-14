@@ -76,7 +76,7 @@
                     .project-card {
                         position: relative;
                         width: 500px;
-                        height: 550px;
+                        height: 580px;
                         margin-bottom: 60px;
                         display: flex;
                         flex-direction: column;
@@ -89,17 +89,34 @@
 
                         img {
                             width: 100%;
+                            border-top-right-radius: 5px;
+                            border-top-left-radius: 5px;
                         }
 
                         h3 {
                             width: 100%;
                             text-align: center;
-                            font-size: 1.8rem;
-                            font-weight: 600;
+                            font-size: 1.6rem;
+                            font-weight: 500;
                             letter-spacing: 1px;
                             color: $color-secondary;
                             background-color: $color-primary;
                             margin-bottom: 10px;
+                        }
+
+                        .techs {
+                            width: 90%;
+                            margin: 10px;
+                            display: flex;
+                            gap: 15px;
+
+                            span {
+                                padding: 2px 15px;
+                                border-radius: 10px;
+                                box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+                                background-color: $color-primary;
+                            }
+
                         }
 
                         p {
@@ -128,6 +145,74 @@
 
                 }
 
+            }
+
+        }
+
+    }
+
+}
+
+
+@media (max-width: 425px) {
+
+    .proyectos {
+
+        .all-container {
+            margin-top: 0;
+
+            .flecha-izq {
+                left: 5px;
+            }
+
+            .flecha-der {
+                right: 5px;
+            }
+
+            .slides-container {
+                .slide {
+                    .container-cards{
+                        flex-direction: column;
+                        gap: 0px;
+
+                        .project-card {
+                            width: 250px;
+                            height: 290px;
+                            margin-bottom: 60px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: flex-start;
+                            align-items: center;
+                            background-color: $color-tertiary;
+                            border: 4px solid $color-secondary;
+                            border-radius: 10px;
+                            box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    
+                            img {
+                                width: 100%;
+                            }
+    
+                            h3 {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 100%;
+                                height: 26%;
+                                margin-bottom: 0px;
+                            }
+    
+                            .techs {
+                                display: none;
+                            }
+    
+                            p {
+                                display: none;
+                            }
+    
+                        }
+
+                    }
+                }
             }
 
         }

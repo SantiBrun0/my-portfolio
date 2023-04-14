@@ -84,9 +84,10 @@
 
         .all-container {
             justify-content: flex-start;
-            margin-top: 30px;
-
+            margin-top: 0;
+            
             .text {
+                margin-top: 30px;
                 width: 92%;
                 font-size: 0.7rem;
             }

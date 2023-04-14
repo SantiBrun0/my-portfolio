@@ -46,10 +46,15 @@ header {
             display: none;
         }
 
-        nav a {
-            font-size: 1rem;
-            margin-left: 1rem;
-        }
+        nav {
+            width: 100%;
+            text-align: center;
+            
+            a {
+                font-size: 0.8rem;
+                margin-left: 1rem;
+            }
+        } 
 
     }
 
