@@ -1,6 +1,7 @@
 import React from 'react'
 
 const SobreMi = () => {
+
   return (
     <section className='sobre-mi' id='sobre-mi'>
         <div className='all-container'>

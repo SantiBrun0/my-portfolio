@@ -33,7 +33,7 @@
                     border-right: 4px solid;
                     width: 17ch;
                     color: $color-secondary;
-                    animation: typing 2s steps(17), blink .5s infinite step-end alternate;
+                    animation: typing 2s steps(22), blink .5s infinite step-end alternate;
                     overflow: hidden;
                 }
 
@@ -108,7 +108,7 @@
             margin-top: 0;
 
             .text-container {
-                width: 100%;
+                width: 96%;
 
                 h3 {
                     font-size: 1.5rem;

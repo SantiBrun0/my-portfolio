@@ -10,16 +10,15 @@ const Home = () => {
                 <h3><span>Full Stack Developer</span></h3>
                 <p>Egresado en abril de 2023 de la carrera Certified Tech Developer creada por Digital House en colaboración con MercadoLibre y Globant. Apasionado por la tecnología, en constante aprendizaje y con mentalidad proactiva.</p>
                 <div className='social-media'>
-                    <a href="#"><i class='bx bxl-github'></i></a>
-                    <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
-                    <a href="#"><i class='bx bxl-instagram' ></i></a>
-                    <a href="#"><i class='bx bxl-twitter' ></i></a>
-                    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                    <a target='_blank' href="https://github.com/SantiBrun0"><i class='bx bxl-github'></i></a>
+                    <a target='_blank' href="https://www.linkedin.com/in/santiagobrunodev/"><i class='bx bxl-linkedin-square' ></i></a>
+                    <a target='_blank' href="https://www.instagram.com/sntbrn/"><i class='bx bxl-instagram' ></i></a>
+                    <a target='_blank' href="https://api.whatsapp.com/send?phone=5493534010152&text=Hola%20Santiago!👋🏻%20estuve%20viendo%20tu%20portfolio💻"><i class='bx bxl-whatsapp'></i></a>
                 </div>
             </div>
 
             <div className='image-container'>
-                <img src="/profile.jpg" alt="profile" className='profile'/>
+                <img src="/profile.png" alt="profile" className='profile'/>
             </div>
         </div>
     </section>
