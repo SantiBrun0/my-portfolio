@@ -85,6 +85,7 @@
         .all-container {
             justify-content: flex-start;
             margin-top: 0;
+            transform: translateY(-15px);
             
             .text {
                 margin-top: 30px;
@@ -93,6 +94,8 @@
             }
 
             .skills-container {
+                align-items: flex-start;
+                transform: translateY(-15px);
 
                 .card-skill {
                     height: 20%;
