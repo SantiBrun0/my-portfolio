@@ -71,7 +71,7 @@ const Proyectos = () => {
                             <div className='container-cards'>
                                 <div className='project-card'>
                                     <img src="/petshop.png" alt="imagen-proyecto" />
-                                    <h3>Petshop Front Cat&Dog</h3>
+                                    <h3>Petshop Cat&Dog</h3>
                                     <div className='techs'>
                                         <span>HTML</span>
                                         <span>CSS</span>
@@ -82,7 +82,7 @@ const Proyectos = () => {
 
                                 <div className='project-card'>
                                     <img src="https://cdn.bizneo.com/blog/wp-content/uploads/2019/05/pruebas-psicometricas.jpg" alt="imagen-proyecto" />
-                                    <h3>Trabajando en esto..</h3>
+                                    <h3>Trabajando..</h3>
                                     <div className='techs'>
                                     </div>
                                     <p></p>
@@ -99,7 +99,7 @@ const Proyectos = () => {
                             <div className='container-cards'>
                                 <div className='project-card'>
                                     <img src="https://cdn.bizneo.com/blog/wp-content/uploads/2019/05/pruebas-psicometricas.jpg" alt="imagen-proyecto" />
-                                    <h3>Trabajando en esto..</h3>
+                                    <h3>Trabajando..</h3>
                                     <div className='techs'>
                                     </div>
                                     <p></p>
@@ -108,7 +108,7 @@ const Proyectos = () => {
 
                                 <div className='project-card'>
                                     <img src="https://cdn.bizneo.com/blog/wp-content/uploads/2019/05/pruebas-psicometricas.jpg" alt="imagen-proyecto" />
-                                    <h3>Trabajando en esto..</h3>
+                                    <h3>Trabajando..</h3>
                                     <div className='techs'>
                                     </div>
                                     <p></p>

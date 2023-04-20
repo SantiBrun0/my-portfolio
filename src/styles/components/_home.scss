@@ -27,14 +27,11 @@
                     margin-bottom: 2rem;
                 }
 
-                span {
-                    display: block;
-                    white-space: nowrap;
-                    border-right: 4px solid;
-                    width: 17ch;
-                    color: $color-secondary;
-                    animation: typing 2s steps(22), blink .5s infinite step-end alternate;
-                    overflow: hidden;
+                .dev {
+                    i {
+                        width: 17ch;
+                        color: $color-secondary;
+                    }
                 }
 
             }
@@ -87,14 +84,6 @@
 
 }
 
-@keyframes typing {
-    from { width: 0; }
-}
-
-@keyframes blink {
-    50% { border-color: transparent; }
-}
-
 
 @media (max-width: 425px) {
 
@@ -143,8 +132,9 @@
             .image-container {
                 .profile {
                     margin-bottom: 0;
-                    width: 140px;
-                    height: 140px;
+                    width: 150px;
+                    height: 150px;
+                    transform: translateY(20px);
                 }
             }
 
