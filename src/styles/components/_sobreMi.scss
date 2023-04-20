@@ -96,10 +96,12 @@
             .skills-container {
                 align-items: flex-start;
                 transform: translateY(-15px);
+                height: fit-content;
 
                 .card-skill {
-                    height: 20%;
+                    height: 28%;
                     width: 26%;
+                    margin-bottom: 14px;
                     
                     i {
                         font-size: 2rem;
