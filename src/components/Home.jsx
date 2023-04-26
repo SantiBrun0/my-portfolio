@@ -30,7 +30,7 @@ const Home = () => {
             <div className='text-container'>
                 <h3>Hola, mi nombre es</h3>
                 <h1>Santiago Bruno</h1>
-                <h3>Y soy <span className='dev' ref={el}>Full Stack Developer</span></h3>
+                <h3>Y soy <span className='dev' ref={el}></span></h3>
                 <p>Egresado en abril de 2023 de la carrera Certified Tech Developer creada por Digital House en colaboración con MercadoLibre y Globant. Apasionado por la tecnología, en constante aprendizaje y con mentalidad proactiva.</p>
                 <div className='social-media'>
                     <a target='_blank' href="https://github.com/SantiBrun0"><i class='bx bxl-github'></i></a>
