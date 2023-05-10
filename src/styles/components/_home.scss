@@ -143,3 +143,49 @@
     }
 
 }
+
+
+@media (max-width: 1024px) {
+
+    .home {
+
+        .all-container {
+            gap: 10px;
+            margin-top: 0;
+
+            .text-container {
+                margin-top: 50px;
+                width: 60%;
+
+                h3 {
+                    font-size: 1.6rem;
+                }
+
+                h1 {
+                    font-size: 2.6rem;
+                }
+
+                p {
+                    font-size: 0.8rem;
+                }
+
+                .social-media {
+                    text-align: start;
+                    margin-top: 40px;
+                }
+
+            }
+
+            .image-container {
+                margin-top: 50px;
+
+                .profile {
+                    width: 250px;
+                    height: 250px;
+                }
+            }
+
+        }
+
+    }
+}

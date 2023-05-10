@@ -49,7 +49,7 @@ console.log(width);
                         <h3>Manage</h3>
                         <div className='techs'>
                             <span>HTML</span>
-                             <span>CSS</span>
+                            <span>CSS</span>
                         </div>
                         <p>Proyecto realizado para la entrega final de la materia Front End I de la carrera CTD de Digital House. Consiste en un maquetado en HTML y CSS de una landing page a partir de un figma brindado por la institución.</p>
                         <a target='_blank' href="https://proyecto-manage.netlify.app/">Ir al proyecto</a>
