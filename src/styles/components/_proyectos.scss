@@ -113,6 +113,36 @@
 
 }
 
+@media (max-width: 1024px) {
+
+    .proyectos {
+
+        .all-container {
+
+            .carrusel-container {
+                .swiper {
+                    .swiper-slide{
+
+                        .project-card {
+                            width: 480px;
+                            height: 560px;
+
+                            img {
+                                width: 470px;
+                            }
+
+                        }
+
+                    }
+                }
+            }
+
+        }
+
+    }
+
+}
+
 
 @media (max-width: 425px) {
 
@@ -190,32 +220,3 @@
 
 }
 
-@media (max-width: 1024px) {
-
-    .proyectos {
-
-        .all-container {
-
-            .carrusel-container {
-                .swiper {
-                    .swiper-slide{
-
-                        .project-card {
-                            width: 480px;
-                            height: 560px;
-
-                            img {
-                                width: 470px;
-                            }
-
-                        }
-
-                    }
-                }
-            }
-
-        }
-
-    }
-
-}

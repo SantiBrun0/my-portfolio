@@ -33,6 +33,24 @@ header {
 
 }
 
+@media (max-width: 1024px) {
+
+    header {
+
+        .logo-name {
+            font-size: 1.8rem;
+        }
+
+        nav {
+            
+            a {
+                font-size: 1.3rem;
+            }
+        } 
+
+    }
+}
+
 @media (max-width: 425px) {
 
     header {
@@ -60,20 +78,3 @@ header {
 
 }
 
-@media (max-width: 1024px) {
-
-    header {
-
-        .logo-name {
-            font-size: 1.8rem;
-        }
-
-        nav {
-            
-            a {
-                font-size: 1.3rem;
-            }
-        } 
-
-    }
-}
