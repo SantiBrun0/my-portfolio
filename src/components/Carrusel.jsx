@@ -68,7 +68,7 @@ console.log(width);
                             <span>SQL</span>
                         </div>
                         <p>Proyecto final de la carrera CTD de Digital House. Se trabajó en equipo mediante la metodología ágil SCRUM y se completó el proyecto en 4 sprints de 2 semanas de duración. Consiste en una plataforma de alquiler de vehiculos.</p>
-                        <a target='_blank' href="http://grupo5-c2.s3-website.us-east-2.amazonaws.com/">Ir al proyecto</a>
+                        <a target='_blank' href="http://deploy-front-pi.s3-website.us-east-2.amazonaws.com/">Ir al proyecto</a>
                     </div>
                 </SwiperSlide>
 
