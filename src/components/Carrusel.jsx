@@ -12,7 +12,7 @@ import useScreenSize from "../hooks/useScreenSize";
 export default function Carrusel() {
 
   const { width } = useScreenSize()
-console.log(width);
+
   return (
     <>
         <div className="carrusel-container">
@@ -43,6 +43,35 @@ console.log(width);
                 modules={[EffectCoverflow, Pagination]}
                 className="mySwiper"
             >
+                <SwiperSlide>
+                    <div className='project-card'>
+                        <img src="/games-store.png" alt="imagen-proyecto" />
+                        <h3>Games Store</h3>
+                        <div className='techs'>
+                            <span>REACT</span>
+                            <span>SASS</span>
+                            <span>SPRING</span>
+                            <span>SQL</span>
+                            <span>AWS</span>
+                        </div>
+                        <p>E-commerce desarrollado completamente por mí, desde el frontend y backend, hasta la infraestructura y despliegue en AWS. Es un proyecto en el que se pueden ver claramente mis competencias como desarrollador full stack.</p>
+                        <a target='_blank' href="http://games-store-bucket.s3-website.us-east-2.amazonaws.com/">Ir al proyecto</a>
+                    </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <div className='project-card'>
+                        <img src="/todoapp.png" alt="imagen-proyecto" />
+                        <h3>To-Do App</h3>
+                        <div className='techs'>
+                            <span>REACT</span>
+                            <span>CSS</span>
+                        </div>
+                        <p>Clásica aplicación To-Do realizada en React y CSS, sin utilizar ninguna librería. Contiene un modo noche y esta diseñada para pantallas mobile.</p>
+                        <a target='_blank' href="https://todoappsb.netlify.app/">Ir al proyecto</a>
+                    </div>
+                </SwiperSlide>
+
                 <SwiperSlide>
                     <div className='project-card'>
                         <img src="/manage.png" alt="imagen-proyecto" />
@@ -82,28 +111,6 @@ console.log(width);
                         </div>
                         <p>Maquetado de una landing page para un petshop ficticio llamado Front Cat&Dog. El diseño proviene de uno de los trabajos propuestos en la materia Front End I de la carrera CTD de Digital House.</p>
                         <a target='_blank' href="https://proyecto-petshop.netlify.app/">Ir al proyecto</a>
-                    </div>
-                </SwiperSlide>
-
-                <SwiperSlide>
-                    <div className='project-card'>
-                        <img src="/devatwork.png" alt="imagen-proyecto" />
-                        <h3>Trabajando..</h3>
-                        <div className='techs'>
-                        </div>
-                        <p></p>
-                        <a target='_blank'>Ir al proyecto</a>
-                    </div>
-                </SwiperSlide>
-
-                <SwiperSlide>
-                    <div className='project-card'>
-                        <img src="/devatwork.png" alt="imagen-proyecto" />
-                        <h3>Trabajando..</h3>
-                        <div className='techs'>
-                        </div>
-                        <p></p>
-                        <a target='_blank'>Ir al proyecto</a>
                     </div>
                 </SwiperSlide>
 
