@@ -61,6 +61,19 @@ export default function Carrusel() {
 
                 <SwiperSlide>
                     <div className='project-card'>
+                        <img src="/pokedex.png" alt="imagen-proyecto" />
+                        <h3>Pokédex APP</h3>
+                        <div className='techs'>
+                            <span>REACT NATIVE</span>
+                            <span>TYPESCRIPT</span>
+                        </div>
+                        <p>Aplicación mobile de la famosa y popular Pokédex, desarrollada en React Native con Typescript. El link redirecciona a la publicación en LinkedIn donde está el video demostración.</p>
+                        <a target='_blank' href="https://www.linkedin.com/feed/update/urn:li:activity:7080535959666139136/?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7080535959666139136%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29">Ir a la demo</a>
+                    </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <div className='project-card'>
                         <img src="/todoapp.png" alt="imagen-proyecto" />
                         <h3>To-Do App</h3>
                         <div className='techs'>
@@ -69,6 +82,19 @@ export default function Carrusel() {
                         </div>
                         <p>Clásica aplicación To-Do realizada en React y CSS, sin utilizar ninguna librería. Contiene un modo noche y esta diseñada para pantallas mobile.</p>
                         <a target='_blank' href="https://todoappsb.netlify.app/">Ir al proyecto</a>
+                    </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <div className='project-card'>
+                        <img src="/peliculas.png" alt="imagen-proyecto" />
+                        <h3>Peliculas APP</h3>
+                        <div className='techs'>
+                            <span>REACT NATIVE</span>
+                            <span>TYPESCRIPT</span>
+                        </div>
+                        <p>Aplicación mobile para consultar peliculas, desarrollada en React Native con Typescript. El link redirecciona a la publicación en LinkedIn donde está el video demostración.</p>
+                        <a target='_blank' href="https://www.linkedin.com/feed/update/urn:li:activity:7079105576873394176/?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7079105576873394176%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29">Ir a la demo</a>
                     </div>
                 </SwiperSlide>
 
