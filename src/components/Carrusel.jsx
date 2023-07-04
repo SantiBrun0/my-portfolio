@@ -66,9 +66,24 @@ export default function Carrusel() {
                         <div className='techs'>
                             <span>REACT NATIVE</span>
                             <span>TYPESCRIPT</span>
+                            <span>AXIOS</span>
                         </div>
                         <p>Aplicación mobile de la famosa y popular Pokédex, desarrollada en React Native con Typescript. El link redirecciona a la publicación en LinkedIn donde está el video demostración.</p>
                         <a target='_blank' href="https://www.linkedin.com/feed/update/urn:li:activity:7080535959666139136/?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7080535959666139136%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29">Ir a la demo</a>
+                    </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <div className='project-card'>
+                        <img src="/rick-and-morty.png" alt="imagen-proyecto" />
+                        <h3>Rick & Morty Randomize</h3>
+                        <div className='techs'>
+                            <span>REACT</span>
+                            <span>TYPESCRIPT</span>
+                            <span>REDUX TOOLKIT</span>
+                        </div>
+                        <p>Aplicación web sobre la serie animada Rick And Morty. Se desarrolló con Typescript y con el objetivo de hacer uso de la herramienta Redux. Su propósito es demostrar como persisten los datos de los personajes que se seleccionan como favoritos.</p>
+                        <a target='_blank' href="https://rickandmortyrandomize.netlify.app/">Ir al proyecto</a>
                     </div>
                 </SwiperSlide>
 
@@ -92,6 +107,7 @@ export default function Carrusel() {
                         <div className='techs'>
                             <span>REACT NATIVE</span>
                             <span>TYPESCRIPT</span>
+                            <span>AXIOS</span>
                         </div>
                         <p>Aplicación mobile para consultar peliculas, desarrollada en React Native con Typescript. El link redirecciona a la publicación en LinkedIn donde está el video demostración.</p>
                         <a target='_blank' href="https://www.linkedin.com/feed/update/urn:li:activity:7079105576873394176/?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7079105576873394176%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29">Ir a la demo</a>

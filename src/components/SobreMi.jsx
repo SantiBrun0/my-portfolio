@@ -30,8 +30,18 @@ const SobreMi = () => {
             </div>
 
             <div className='card-skill'>
+              <i class='bx bxl-typescript'></i>
+              <h3>TYPESCRIPT</h3>
+            </div>
+
+            <div className='card-skill'>
               <i class='bx bxl-react' ></i>
               <h3>REACT</h3>
+            </div>
+
+            <div className='card-skill'>
+              <i class='bx bxl-react' ></i>
+              <h3>REACT NATIVE</h3>
             </div>
 
             <div className='card-skill'>
@@ -47,6 +57,11 @@ const SobreMi = () => {
             <div className='card-skill'>
               <i class='bx bxl-git' ></i>
               <h3>GIT</h3>
+            </div>
+
+            <div className='card-skill'>
+              <i class='bx bxl-aws'></i>
+              <h3>AWS</h3>
             </div>
 
 
