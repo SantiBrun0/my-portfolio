@@ -31,7 +31,7 @@ const Home = () => {
                 <h3>Hola, mi nombre es</h3>
                 <h1>Santiago Bruno</h1>
                 <h3>Y soy <span className='dev' ref={el}></span></h3>
-                <p>Egresado en abril de 2023 de la carrera Certified Tech Developer creada por Digital House en colaboración con MercadoLibre y Globant. Apasionado por la tecnología, en constante aprendizaje y con mentalidad proactiva.</p>
+                <p>Egresado de la carrera Certified Tech Developer creada por Digital House en colaboración con MercadoLibre y Globant, siempre en búsqueda de nuevos desafios que impulsen mi carrera profesional como desarrollador.</p>
                 <div className='social-media'>
                     <a target='_blank' href="https://github.com/SantiBrun0"><i class='bx bxl-github'></i></a>
                     <a target='_blank' href="https://www.linkedin.com/in/santiagobrunodev/"><i class='bx bxl-linkedin-square' ></i></a>
