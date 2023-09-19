@@ -109,10 +109,14 @@
     
         .all-container {
             justify-content: flex-start;
-            transform: translateY(-50px);
+            transform: translateY(-70px);
     
             form {
                 width: 320px;
+            }
+
+            .social-media {
+                margin: 1.4rem;
             }
     
         }
