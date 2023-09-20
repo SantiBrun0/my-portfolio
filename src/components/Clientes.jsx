@@ -19,7 +19,7 @@ const Clientes = () => {
               la ciudad de Villa Nueva.
             </p>
             <a
-              href="http://aberturasalfa.vercel.app"
+              href="http://aberturasalfa.com.ar"
               target="_blank"
               className="link-cliente-card"
             >
